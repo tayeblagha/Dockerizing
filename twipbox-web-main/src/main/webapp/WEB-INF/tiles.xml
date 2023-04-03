@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+
+<tiles-definitions>
+	<definition name="landing.header" template="/WEB-INF/views/layout-v3/landing_header.jsp">
+		<put-attribute name="nav" value="/WEB-INF/views/layout-v3/nav.jsp"/>
+	</definition>
+
+	<definition name="small.header" template="/WEB-INF/views/layout-v3/small_header.jsp">
+		<put-attribute name="nav" value="/WEB-INF/views/layout-v3/nav.jsp"/>
+	</definition>
+
+
+
+	<definition name="welcome" template="/WEB-INF/views/layout-v3/layout.jsp">
+		<put-attribute name="header" value="landing.header" />
+		<put-attribute name="body" value="/WEB-INF/views/layout-v3/body.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/layout-v3/footer.jsp" />
+	</definition>
+
+</tiles-definitions>

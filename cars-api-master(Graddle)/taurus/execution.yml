@@ -1,0 +1,9 @@
+execution:
+  - scenario: with_script
+scenarios:
+  with_script:
+    script: ../cars-api.jmx
+reporting:
+  - module: junit-xml
+    filename: /Users/alex/Documents/IntelliJ/cars-api/taurus/cars-api-junit.xml
+    data-source: pass-fail

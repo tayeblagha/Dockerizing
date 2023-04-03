@@ -1,0 +1,8 @@
+reporting:
+- module: passfail
+  criteria:
+  - class: bzt.modules.monitoring.MonitoringCriteria
+    subject: local/cpu
+    condition: ">"
+    threshold: 70
+    timeframe: 5s

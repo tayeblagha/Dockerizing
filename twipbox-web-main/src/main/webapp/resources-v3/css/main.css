@@ -1,0 +1,352 @@
+@import 'https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900';
+@import url(../fonts/font-awesome/css/font-awesome.min.css);
+.store {
+    display: inline-block;
+    text-indent: -9999px;
+    background: url(../images/app-store.svg) no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 54px;
+}
+.play {
+    background: url(../images/play-store.svg) no-repeat;
+}
+section h3 {
+    font-size: 30px;
+}
+.top_section p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.col-half-offset {
+    margin-left: 4.166666667%
+}
+.well h5 {
+    text-transform: none;
+    font-weight: 300;
+    font-size: 18px;
+}
+#work h5 {
+    font-size: 17px;
+}
+.md-icon {
+    font-size: 40px;
+}
+.feature {
+    display: block;
+}
+.feature.feature-5 {
+    margin-top: 45px;
+}
+.feature.feature-6 {
+    margin-top: 22px;
+}
+.point_impression .panel {
+    border: medium none;
+    box-shadow: none;
+    background: none;
+}
+.affix-top .logo {
+    text-indent: -9999px;
+    background-image: url("../images/logo-white.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 60px;
+    width: 218px;
+}
+#formulaire .logo {
+    text-indent: -9999px;
+    background-image: url("../images/logo-colored.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 60px;
+    width: 218px;
+}
+.affix-top #mainmenu li a {
+    font-weight: 600;
+    margin: 0px;
+   
+    padding: 10px 15px;
+}
+.affix-top #mainmenu li .connect, .affix-top #mainmenu .logged {
+    color: #569cc0;
+    border-color: rgb(255, 255, 255);
+    background: #fff;
+    font-weight: 600;
+    margin: 0px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#formulaire #mainmenu li .connect, #formulaire #mainmenu .logged {
+    color: #fff;
+    border-color: #2cb094;
+    background: #2cb094;
+    font-weight: 600;
+    margin: 0px;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-left: 15px;
+}
+.affix-top #mainmenu li a.subscribe {
+    color: #fff;
+    border-color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 10px 15px;
+
+}
+.affix #mainmenu li .connect, .affix #mainmenu .logged {
+    color: #fff;
+    border-color: #2cb094;
+    background: #2cb094;
+    font-weight: 600;
+    margin: 0px;
+    border: 1px solid #2cb094;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.affix #mainmenu li .subscribe {
+    color: #2cb094;
+    border-color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #2cb094;
+    border-radius: 25px;
+    padding: 9px 15px;
+}
+
+.affix-top #mainmenu li .dropdown-menu a {
+    color: #569cc0;
+    font-weight: 300;
+    border-radius: 0
+}
+.affix #mainmenu li .dropdown-menu a { 
+    font-weight: 300;
+    border-radius: 0;
+    padding: 10px 15px;
+
+}
+#mainmenu li .dropdown-menu a i {
+   display: inline-block;
+   margin-right: 10px;
+}
+#mainmenu .dropdown-menu {top: 33px;}
+.affix #mainmenu .dropdown {
+    margin-top: 10px;
+}
+.affix-top #mainmenu .dropdown {
+    margin-top: 10px;
+}
+.affix .logo {
+    text-indent: -9999px;
+    background-image: url("../images/logo-colored.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 50px;
+    width: 180px;
+}
+.affix .navbar-brand {
+    padding: 5px 15px;
+}
+.affix #mainmenu {
+    margin-top: 10px;
+}
+.affix #mainmenu li a {
+    color: #2cb094;
+    padding: 10px 15px;
+}
+.navbar-brand {
+    padding: 2px 15px;
+}
+.mainmenu-area.affix {
+    background: #fff;
+    height: 65px;
+}
+.form-material .form-group {
+    overflow: hidden
+}
+.form-material .form-control {
+    background-color: transparent;
+    background-position: center bottom, center calc(100% - 1px);
+    background-repeat: no-repeat;
+    background-size: 0 2px, 100% 1px;
+    padding: 0;
+    transition: background 0s ease-out 0s
+}
+.form-material .form-control, .form-material .form-control.focus, .form-material .form-control:focus {
+    background-image: linear-gradient(#2cb094, #2cb094), linear-gradient(#d9d9d9, #d9d9d9);
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: none;
+    float: none
+}
+.form-material .form-control.focus, .form-material .form-control:focus {
+    background-size: 100% 2px, 100% 1px;
+    outline: 0 none;
+    transition-duration: 0.3s
+}
+.text-info {
+    color: #2cb094 !important;
+}
+b, strong {
+    font-weight: bolder;
+}
+#recoverform {
+    display: none;
+}
+.checkbox {
+    padding-left: 25px;
+}
+.btn-info, .btn-info.disabled {
+    background: #2cb094;
+    border: 1px solid #2cb094;
+}
+.btn-info:hover, .btn-info.disabled:hover {
+    background: #2cb094;
+    opacity: 0.8;
+    border: 1px solid #2cb094;
+    color: #fff;
+}
+.btn-info.active, .btn-info:focus, .btn-info.disabled.active, .btn-info.disabled:focus {
+    background: #028ee1
+}
+.btn-outline-info {
+    color: #2cb094;
+    background-color: transparent;
+    border-color: #2cb094
+}
+.btn-outline-info:hover, .btn-outline-info:focus, .btn-outline-info.focus {
+    background: #2cb094;
+    border-color: #2cb094;
+    color: #fff
+}
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+.login-box .social {
+    display: block;
+    /*margin-bottom: 30px;*/
+    padding: 7px 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*added for login page no longer modal*/
+.login-register{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100%;
+    width: 100%;
+    padding:10% 0;
+    position:fixed;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-block {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.login-box  {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.login-box .social:hover {
+    color: #fff;
+}
+
+.btn-googleplus {
+    color: #fff;
+    background-color: #dd4b39;
+}
+
+.login-modal {
+    width: 360px;
+    margin-top: 100px;
+}
+
+.social a {
+    width: 100%;
+    display: block;
+    margin:10px  0;
+    padding:10px 0;
+}
+
+.social a i{
+    margin-right: 15px;
+}
+
+.btn.btn-link.go-btn {
+    border: none;
+    border-radius: 100px;
+    color: #2cb094;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    min-width: 150px;
+    padding: 13px 30px;
+    text-decoration: none;
+    background: transparent;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+/*added by amd 16 sept 2017 */
+.login-span-or {
+    position: relative !important;
+    padding: 16px !important;
+}
+
+.login-span-or::before {
+    content: '' !important;
+    position: absolute !important;
+    border-bottom: 1px solid #e4e4e4 !important;
+    top: 50% !important;
+    right: 100% !important;
+    width: 5000px !important;
+}
+
+.login-span-or::after {
+    content: '' !important;
+    position: absolute !important;
+    border-bottom: 1px solid #e4e4e4 !important;
+    top: 50% !important;
+    left: 100% !important;
+    width: 5000px !important;
+}
